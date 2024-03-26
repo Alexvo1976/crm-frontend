@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Card } from 'react-bootstrap'
 import { LoginForm } from "../../components/login/Login.comp";
 import './entry.style.css'
-import { ResetPassword } from "../password-reset/passwordReset.comp";
+import { ResetPassword } from "../../components/password-reset/passwordReset.comp";
 
 export const Entry = () => {
   const [email, setEmail] = useState("");
